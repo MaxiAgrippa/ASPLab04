@@ -1,0 +1,3 @@
+/Users/Tilliw/CLionProjects/ASPLab04/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Tilliw/CLionProjects/ASPLab04/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Tilliw/CLionProjects/ASPLab04/cmake-build-debug/CMakeFiles/Main.dir
