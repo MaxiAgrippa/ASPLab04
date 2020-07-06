@@ -16,7 +16,8 @@ void reversePicture(FILE *filePointer_1, FILE *filePointer_2, int columns, int r
 int main(int argc, char *argv[])
 {
     // two file pointer, one for source, one for write
-    FILE *filePointer_1, *filePointer_2;
+    FILE *filePointer_1;
+    FILE *filePointer_2;
     // file size
     long int fileSize;
     // serve for reading source file head information
@@ -24,19 +25,19 @@ int main(int argc, char *argv[])
     // picture columns and rows
     int columns, rows;
     // open the source file to read
-    filePointer_1 = fopen(argv[2], "r");
+    filePointer_1 = fopen(argv[1], "r");
     // if failed, show error and exit
     if (filePointer_1 == NULL)
     {
-        perror("Can not open file!");
+        fprintf(stderr,"Can not open file %s.\n",argv[1]);
         exit(0);
     }
     // open the target file to write
-    filePointer_2 = fopen(argv[3], "w");
+    filePointer_2 = fopen(argv[2], "w");
     // if failed, show error and exit
     if (filePointer_2 == NULL)
     {
-        perror("Can not write file!");
+        fprintf(stderr,"Can not open file %s.\n",argv[2]);
         exit(0);
     }
     // put the stream beginning to the end of the source file
