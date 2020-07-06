@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/Tilliw/CLionProjects/ASPLab04/main.c" "/Users/Tilliw/CLionProjects/ASPLab04/cmake-build-debug/CMakeFiles/main.dir/main.c.o"
+  "/Users/Tilliw/CLionProjects/ASPLab04/reversePicture.c" "/Users/Tilliw/CLionProjects/ASPLab04/cmake-build-debug/CMakeFiles/main.dir/reversePicture.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

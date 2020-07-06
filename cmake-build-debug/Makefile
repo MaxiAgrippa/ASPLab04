@@ -123,32 +123,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-main.o: main.c.o
+reversePicture.o: reversePicture.c.o
 
-.PHONY : main.o
+.PHONY : reversePicture.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.o
-.PHONY : main.c.o
+reversePicture.c.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/reversePicture.c.o
+.PHONY : reversePicture.c.o
 
-main.i: main.c.i
+reversePicture.i: reversePicture.c.i
 
-.PHONY : main.i
+.PHONY : reversePicture.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.i
-.PHONY : main.c.i
+reversePicture.c.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/reversePicture.c.i
+.PHONY : reversePicture.c.i
 
-main.s: main.c.s
+reversePicture.s: reversePicture.c.s
 
-.PHONY : main.s
+.PHONY : reversePicture.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.c.s
-.PHONY : main.c.s
+reversePicture.c.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/reversePicture.c.s
+.PHONY : reversePicture.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... reversePicture.o"
+	@echo "... reversePicture.i"
+	@echo "... reversePicture.s"
 .PHONY : help
 
 

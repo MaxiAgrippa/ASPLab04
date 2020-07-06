@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/main.c.o"
+  "CMakeFiles/main.dir/reversePicture.c.o"
   "main"
   "main.pdb"
 )

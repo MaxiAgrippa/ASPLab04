@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Tilliw/CLionProjects/ASPLab04/main.c">
+		<Unit filename="/Users/Tilliw/CLionProjects/ASPLab04/reversePicture.c">
 			<Option target="main"/>
 		</Unit>
 		<Unit filename="/Users/Tilliw/CLionProjects/ASPLab04/CMakeLists.txt">
