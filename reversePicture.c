@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
     // picture columns and rows
     int columns, rows;
     // open the source file to read
-    filePointer_1 = fopen(argv[2], 'r');
+    filePointer_1 = fopen(argv[2], "r");
     // if failed, show error and exit
     if (filePointer_1 == NULL)
     {
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
         exit(0);
     }
     // open the target file to write
-    filePointer_2 = fopen(argv[3], 'w');
+    filePointer_2 = fopen(argv[3], "w");
     // if failed, show error and exit
     if (filePointer_2 == NULL)
     {
@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
     // get source file picture columns and rows.
     fscanf(filePointer_1, "%d %d\n", &columns, &rows);
     // put picture columns and rows into the target file.
-    fprintf(filePointer_2, "%d %d\n", &columns, &rows);
+    fprintf(filePointer_2, "%d %d\n", columns, rows);
 
     // get source file picture max grey.
     fgets(temp, 100, filePointer_1);
