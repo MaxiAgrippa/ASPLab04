@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
         exit(0);
     }
     // open target file
-    int file_2 = open(argv[2], O_WRONLY | O_CREAT);
+    int file_2 = open(argv[2], O_WRONLY | O_CREAT, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
     // if failed, show error and exit
     if (file_2 == -1)
     {
